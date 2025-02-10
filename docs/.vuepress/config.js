@@ -75,7 +75,5 @@ export default defineUserConfig({
   // 额外配置建议
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ],
-  // 指定构建输出目录
-  dest: '../dist'
+  ]
 })

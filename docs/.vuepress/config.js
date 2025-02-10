@@ -6,6 +6,7 @@ export default defineUserConfig({
   lang: 'cn-ZH',
   title: 'Minecraft Server Doc',
   description: '一个 Minecraft 开服文档，从入门到精通',
+  dest: './docs/.vuepress/dist',
 
   theme: defaultTheme({
     locales: {
@@ -15,7 +16,7 @@ export default defineUserConfig({
         description: '一个 Minecraft 开服文档，从入门到精通',
       },
     },
-        // 导航栏配置
+    // 导航栏配置
     navbar: [
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/quickstart' },

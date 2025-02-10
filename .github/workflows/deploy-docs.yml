@@ -42,6 +42,15 @@ jobs:
           pnpm run docs:build
           > docs/.vuepress/dist/.nojekyll
 
+      - name: 检查 .nojekyll 文件是否存在
+        run: |
+          if [ -f docs/.vuepress/dist/.nojekyll ]; then
+            echo ".nojekyll 文件存在"
+          else
+            echo ".nojekyll 文件不存在"
+            exit 1
+          fi          
+
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:

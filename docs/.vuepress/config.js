@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: 'Minecraft Server Doc',
   description: '一个 Minecraft 开服文档，从入门到精通',
   dest: './docs/.vuepress/dist',
-
+  base: '/mc-doc/', // 仓库名称
   theme: defaultTheme({
     locales: {
       '/': {

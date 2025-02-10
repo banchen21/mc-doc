@@ -1,33 +1,47 @@
 ---
 home: true
-title: Home
+title: 主页
 heroImage: https://vuejs.press/images/hero.png
 actions:
-  - text: Get Started
-    link: /getting-started.html
+
+  - text: 开服教程
+    link: /guide/help-mian.html
     type: primary
 
-  - text: Introduction
+  - text: VuePress 帮助手册 
     link: https://vuejs.press/guide/introduction.html
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 开服零门槛 
+    details: 从零开始的保姆级教程，清晰的文档结构助你快速搭建专属服务器
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+  - title: 多版本支持
+    details: 涵盖Java版/基岩版开服指南，支持Forge/Fabric/Paper等主流服务端
+
+  - title: 性能优化
+    details: 提供服务器参数调优指南，TPS提升方案及硬件配置建议
+
+  - title: 插件大全
+    details: 常用插件配置教程，包含权限管理、领地保护、经济系统等核心功能
+
+  - title: 安全防护
+    details: 详细讲解DDoS防护、反作弊设置及服务器备份策略
+
+  - title: 疑难解答
+    details: 收录常见问题解决方案，附带社区支持渠道链接
+    
+footer: MIT | Copyright © 2025-present Minecraft Server Doc Team
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+欢迎来到《Minecraft 开服宝典》！这里汇集了：
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+- 📖 从基础搭建到高阶管理的完整教程  
+- 🛠️ 最新服务端配置指南（1.12～1.21）  
+- 🔧 实用插件配置模板与自动化脚本  
+- 🚀 服务器性能优化与监控方案  
+- 🛡️ 安全防护与应急处理手册  
+
+立即查看[快速入门指南][quick-start]开始你的开服之旅！
+
+[quick-start]: /quick-start.html

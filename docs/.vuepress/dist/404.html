@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="cn-ZH">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="/favicon.ico"><title>Minecraft Server Doc</title><meta name="description" content="一个 Minecraft 开服文档，从入门到精通">
+    <link rel="preload" href="/assets/style-FnvpxzTR.css" as="style"><link rel="stylesheet" href="/assets/style-FnvpxzTR.css">
+    <link rel="modulepreload" href="/assets/app-DlwwQ3od.js"><link rel="modulepreload" href="/assets/404.html-B1Mz26d7.js">
+    <link rel="prefetch" href="/assets/index.html-FEwck712.js" as="script"><link rel="prefetch" href="/assets/help-mian.html-jjmIJ5iC.js" as="script"><link rel="prefetch" href="/assets/quickstart.html-MRdHG83i.js" as="script"><link rel="prefetch" href="/assets/serverconfig.html-rV9aJxiI.js" as="script"><link rel="prefetch" href="/assets/serverlist.html-9uaIoo7g.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-BuZtQEi2.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-d3bd02ff><main class="page" data-v-d3bd02ff><div vp-content data-v-d3bd02ff><h1 data-v-d3bd02ff>404</h1><blockquote data-v-d3bd02ff>How did we get here?</blockquote><a class="route-link" href="/" data-v-d3bd02ff>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DlwwQ3od.js" defer></script>
+  </body>
+</html>
